@@ -1,3 +1,10 @@
+<?php
+
+    $mode = "dark";
+    $name = "Dave";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +13,6 @@
     <title>Quick Intro to PHP</title>
 </head>
 <body>
-    
+    <?php echo "Hello {$name}!" ?>
 </body>
 </html>
